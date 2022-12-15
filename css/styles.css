@@ -31,7 +31,7 @@ a {
   height: 30px;
   align-self: flex-end;
   font-size: 18px;
-  margin: 10px 15px;
+  margin: 10px 20px;
 }
 
 .top-container {
@@ -39,19 +39,57 @@ a {
 }
 
 .top-nav {
-  width: 45%;
+  width: auto;
   height: 80px;
-  justify-content: space-evenly;
   align-items: center;
-  background: lightblue;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
 }
 
+.header-link {
+  margin: 10px 30px;
+  width: auto;
+}
+
+.active {
+  color: darkgreen;
+}
 
 .logo {
   height: auto;
-  width: 240px;
-  margin: 15px;
+  width: 200px;
+  margin: 20px;
   align-self: flex-end;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  background: lightpink;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+  padding: 20px;
+  background: lightblue;
+}
+
+.game-card {
+  width: 100%;
+  height: 250px;
+  justify-self: center;
+  background: white;
+}
+
+.taglist li {
+  display: inline;
 }
