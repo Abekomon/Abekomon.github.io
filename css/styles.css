@@ -85,11 +85,32 @@ h1 {
 
 .game-card {
   width: 100%;
-  height: 250px;
+  height: 350px;
   justify-self: center;
   background: white;
 }
 
+.taglist {
+margin-top: 5px;
+}
+
 .taglist li {
-  display: inline;
+  display: inline-block;
+  background-color: lightgrey;
+  padding: 2px 4px;
+  border-radius: 10px;
+}
+
+.game-card header {
+  height: 55%;
+  width: 100%;
+}
+
+.game-card h3 {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.game-card footer {
+  padding: 10px;
 }
