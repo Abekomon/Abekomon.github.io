@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   overflow: auto;
+  list-style-type: none;
 }
 
 .container {
@@ -87,11 +88,12 @@ h1 {
   width: 100%;
   height: 350px;
   justify-self: center;
-  background: white;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .taglist {
-margin-top: 5px;
+  margin-top: 5px;
 }
 
 .taglist li {
@@ -102,15 +104,74 @@ margin-top: 5px;
 }
 
 .game-card header {
-  height: 55%;
+  height: 65%;
   width: 100%;
 }
 
 .game-card h3 {
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 .game-card footer {
   padding: 10px;
+}
+
+
+
+
+
+
+.league {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/league.jpeg) top center no-repeat;
+  background-size: cover;
+}
+
+.fortnite {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/fortnite.jpeg) top center no-repeat;
+  background-size: cover;
+}
+
+.wow {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/wow.jpeg) top center no-repeat;
+  background-size: cover;
+}
+
+.valorant {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/valorant.jpeg) top center no-repeat;
+  background-size: cover;
+}
+
+.rocketleague {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/rl.jpeg) top center no-repeat;
+  background-size: cover;
+}
+
+.ffxiv {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ), url(./img/ffxiv.jpeg) top center no-repeat;
+  background-size: cover;
 }
